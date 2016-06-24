@@ -133,6 +133,7 @@ a {
 .intro-jumbotron {
     width: 100%;
     height: 100%;
+    margin-top: 60px;
     padding: 150px 0;
     text-align: center;
     background: image-url("coex-overlay.jpg") no-repeat bottom center scroll;
@@ -348,6 +349,21 @@ a {
 }
 
 /*-------------
+  About Section
+--------------*/
+
+#about {
+  border-bottom: 1px solid rgba(white, 0.3);
+  
+  p {
+    text-align:left;
+  }
+
+
+
+}
+
+/*-------------
   Educator Section
 --------------*/
 
@@ -536,6 +552,12 @@ footer {
 
     h3 {
       font-weight: 300;
+    }
+
+    p {
+      font-size: 15px;
+      font-weight: 100;
+      color:white;
     }
   
     ul.quicklinks {
