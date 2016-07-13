@@ -131,16 +131,18 @@ a {
 --------------*/
 
 .intro-jumbotron {
-    width: 100%;
-    height: 100%;
-    margin-top: 60px;
-    padding: 150px 0;
+    min-width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 25px;
+    padding: 50px 0;
     text-align: center;
-    background: image-url("coex-overlay.jpg") no-repeat bottom center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+  ;
+}
+
+.style_image {
+  max-width: 100%;
+  max-height: 90%;
 }
 
 /*-------------
@@ -151,7 +153,7 @@ a {
     padding-top: 65px;
     display: table;
     width: 100%;
-    height: 75%;
+    height: 35%;
     color: white;
     background-color: black;
 }
@@ -167,13 +169,13 @@ a {
      
     
     .intro-left-pic {
-      background: image-url("jumbopic-left.jpg") no-repeat;
+      background: image-url("anim-header-left.jpg") no-repeat;
       background-size: cover;
        -webkit-background-size: cover;
     }
 
     .intro-right-pic {
-      background: image-url("jumbopic-right.jpg") no-repeat;
+      background: image-url("anim-header-right.jpg") no-repeat;
       background-size: cover;
       -webkit-background-size: cover;
     }
@@ -183,7 +185,7 @@ a {
         padding: 0;
         .intro-body {
             .brand-heading {
-                font-size: 100px;
+                font-size: 60px;
             }
             .intro-text {
                 font-size: 26px;
@@ -199,7 +201,7 @@ a {
     padding: 7px 16px;
     border: 2px solid white;
     border-radius: 100% !important;
-    font-size: 40px;
+    font-size: 20px;
     color: white;
     background: transparent;
     -webkit-transition: background .3s ease-in-out;
@@ -270,7 +272,7 @@ a {
 .hovereffect {
   width: 100%;
   height: 100%;
-  float: left;
+  float: center;
   overflow: hidden;
   position: relative;
   text-align: center;
@@ -318,7 +320,7 @@ a {
   text-transform: uppercase;
   text-align: center;
   position: absolute;
-  font-size: 50px;
+  font-size: 25px;
   background-color: transparent;
   color: #FFF;
   padding: 1em 0;
@@ -376,6 +378,10 @@ a {
     padding-top: 25px;
 }
 
+.educator-img {
+  
+}
+
 /*-------------
   Entertainer Section
 --------------*/
@@ -385,12 +391,11 @@ a {
     height: 80%;
     padding: 100px 0;
     color: black;
-    background: image-url("entertainer.jpg") no-repeat center center scroll;
-    background-color: black;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+   
+}
+
+.educator-img {
+  
 }
 
 
@@ -506,6 +511,7 @@ div#masonry:hover img:hover { opacity: 1; }
 }
 
 
+
 .ratio {
     background-position: center center;
     background-repeat: no-repeat;
@@ -524,13 +530,19 @@ div#masonry:hover img:hover { opacity: 1; }
 }
 
 .img-circle {
-    border-radius: 50%;
+    width:150px;
+    height:150px;
+    border-radius: 100%;
+    width: 100%;
+   
 }
 
 .img-responsive {
-    display: block;
-    height: auto;
+    width:175px;
+    height:175px;
     max-width: 100%;
+    display: block;
+    padding: 15px;
 }
 
 /*------------

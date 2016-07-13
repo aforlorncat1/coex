@@ -15,6 +15,9 @@
 //= require turbolinks
 //= require bootstrap-sprockets 
 //= require grayscale.js
+//= require jquery.cycle2.min
+//= require jquery.cycle2.carousel.min
+//= require jquery.cycle2.center.min
 //= require_tree  .
 
 
