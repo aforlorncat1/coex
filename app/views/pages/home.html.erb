@@ -44,9 +44,9 @@
             data-cycle-speed="1500"
             data-cycle-timeout="2000"
             data-cycle-loop= 1 >
-            <%= image_tag("jumbopic-left.jpg", :class=>"style_image") %>
-            <%= image_tag("jumbopic-right.jpg", :class=>"style_image") %>
-            <%= image_tag("coex-overlay.jpg", :class=>"style_image") %>
+            <%= image_tag("jumbo-right.jpg", :class=>"style_image") %>
+            <%= image_tag("jumbo-left.jpg", :class=>"style_image") %>
+            <%= image_tag("coex-overlay2.jpg", :class=>"style_image") %>
         </div>
     </div>
 
@@ -76,31 +76,50 @@
         </div>
     </header>
 
-    <section id="educator" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-10 col-lg-offset-1">
-                <h2>Educator</h2>
-                <p>Include writeup about Coex's profile as an entertainer. Picture on left or without?</p>
+    <section id="educator" class="content-section text-center">
+      <div class="educator-section">
+        <div class="container">
+          <div class="row">
+
+            <div class="col lg-12">
+              <%=image_tag("Speaking_2.png",:class=>"educator-img") %>
             </div>
 
-            <div class="col lg-2">
-              <%=image_tag("Speaking.png",:class=>"educator-img") %>
+            <div class="col-lg-6 edu-text">
+                <h2>Educator</h2>
+                <p>Include writeup about Coex's profile as an entertainer. A recurring Tedx presenter, Coex has regaled audiences with speeches of valor, encouragement, grit, and perseverance. His mother is very proud of him. His cousin(s) too. </p>
+
+                 <span class="fa-stack fa-3x">
+                  <i class="fa fa-circle-thin fa-stack-2x"></i>
+                  <i class="fa fa-angle-double-down fa-stack-1x"></i>
+                </span>
             </div>
+
+          </div>
         </div>
+    </div>
     </section>
 
     <section id="entertainer" class="content-section text-center">
         <div class="entertainer-section">
             <div class="container">
-                <div class="col-lg-6">
+              <div class="row">
+                <div class="col-lg-6 ent-text" >
                     <h2 class="normal">COEX, the Entertainer</h2>
-                    <p>Include writeup about Coex's profile as an entertainer.</p>
+                    <p>Include writeup about Coex's profile as an entertainer. (*Boom*Chhck*Boom*Chkk*Boom*CHkk* 
+                      *WOWAOWAOWAOWAOWOA*)</p>
+                       
+                    <span class="fa-stack fa-3x">
+                      <i class="fa fa-circle-thin fa-stack-2x"></i>
+                      <i class="fa fa-angle-double-down fa-stack-1x"></i>
+                     </span>
+              
                 </div>
 
                 <div class="col lg-6">
-                  <%=image_tag("entertainer-sec.png",:class=>"educator-img") %>
+                  <%=image_tag("entertainer-sec.png",:class=>"entertainer-img") %>
                  </div>
-
+               </div>
             </div>
         </div>
     </section>
